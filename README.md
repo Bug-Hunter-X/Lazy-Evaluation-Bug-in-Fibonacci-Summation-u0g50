@@ -1,0 +1,2 @@
+# Haskell Lazy Evaluation Bug
+This repository demonstrates a common error in Haskell programming related to lazy evaluation and infinite lists.  The program attempts to sum the first 10 Fibonacci numbers but fails to terminate due to the infinite nature of the Fibonacci sequence. The solution demonstrates how to properly handle this using `take` to restrict evaluation to a finite portion of the list.
